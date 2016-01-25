@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Only Human</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+</head>	
+
+<body>
+
+
+
+
+
+	<div id="container">
+ 	<div><img alt="before" src="assets/gandhi_good.jpg" width="1313" height="734">
+
+ 	</div>
+ 	<div><img alt="after" src="assets/gandhi_bad.jpg" width="1313" height="734" /></div>
+	</div>
+
+	
+
+	<div id="lightbox" style="background-image: url('assets/overlay.png')">
+	<div id="close" width="100%"><img src="assets/close.png"></div>
+	<h1>MAHATMA GANDHI</h1>
+	<span style="color:red">COUNTRY : </span><span>INDIA</span><br>
+
+    <span style="color:red">BORN : </span><span>1869</span><br>
+    <span style="color:red">DEATH : </span><span>1948</span><br></br>
+    <div id="map" width="100%"><img src="assets/indiamap.png"></div>
+
+    <div id="instructions">Move the slider <i>RIGHT</i> to see positive media and <i>LEFT</i> to see negative media.<br>Once you've learnt about 'Gandhi', place the slider where you feel it belongs and press <i>VOTE</i>.</div>
+
+
+    
+    
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.beforeafter-1.4.js"></script>
+	
+	<script type="text/javascript">
+
+		$(function(){
+		$('#container').beforeAfter();
+		});
+
+		$('#close').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
+		$('#lightbox').fadeOut(500);
+
+		});
+
+
+
+
+
+ 	</script>z
+
+
+
+
+
+
+</body>
+</html>

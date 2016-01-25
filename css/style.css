@@ -1,0 +1,110 @@
+body{
+	width: 1313px;
+	height: 734px;
+	background-color: #fff ;
+	margin: 0;
+	padding: 0;
+
+}
+
+#container {
+	margin-top: 0px;
+	/*position: fixed;*/
+/*	z-index: -1;*/
+}
+
+.disclaimer {
+	width: 400px;
+	height:805px;
+	margin-top: 0px;
+	background-color: #000;
+/*	z-index: 1;*/
+	margin-left: 40vw;
+	margin-right: 40vw;
+}
+
+
+/*#box{
+	width: 400px;
+	height:800px;
+	background-color: #000;
+	position:relative;
+	z-index: 10;
+	opacity: 0.8;
+
+}*/
+
+
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+  /*  margin-left: 25vw;
+    margin-right: 50vw;*/
+/*    background: url('assets/overlay.png'); */
+   
+    text-align:center;
+    z-index: 999;
+}
+
+#lightbox h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: white;
+	letter-spacing: 8px;
+	margin-top: 8vh;
+
+
+}
+
+#close img{
+	margin-top: 40px;
+/*	position: relative;
+*/	width: 5vw;
+	transition:.5s;
+
+}
+
+
+#close img:hover{
+	margin-top: 40px;
+/*	position: relative;
+*/	width: 5vw;
+
+    transform: scale(1.5) ;
+
+}
+
+
+#lightbox span{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: white;
+	position: relative;
+	margin-top: 10px;
+	line-height: 40px;
+
+}
+
+#map img{
+	width: 40vw;
+	margin-top: -8vh;
+	position: relative;
+}
+
+#instructions{
+	font-family: 'Open Sans Light 300', sans-serif;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: white;
+	line-height: 30px;
+	letter-spacing: 1px;
+
+}
+

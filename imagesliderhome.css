@@ -1,0 +1,374 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {
+	padding: none;
+	margin: none;
+	background-color: black;
+}
+
+header {
+	height: 734px;
+}
+
+
+
+p {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	margin-top: -80px;
+	margin-bottom: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+ul {
+	margin-left: -45px;
+	margin-right: -19px;
+	margin-top: -4px;
+
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: none;
+	margin-left: -4px;
+	margin-top: -4px;
+
+
+}
+
+a {
+	text-decoration: none;
+}
+
+#people {
+	margin-bottom: -5px;
+	padding-bottom: 0px;
+}
+
+#header {
+	width: 100%;
+	margin-top: -4px;
+	margin-left: -4px;
+}
+
+#logo {
+	margin-top: 100px;
+}
+
+#button {
+		text-decoration: none;
+		font-size: 15px;
+		font-family: 'Open Sans';
+		font-weight: 800;
+		color: white;
+		border: 2px solid red;
+		padding: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+		letter-spacing: 3px;
+		 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+}
+
+#button:hover {
+	background-color: red;
+
+}
+
+#kim {
+	background-image: url('people/Kim1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+}
+
+#kim:hover {
+	background-image: url('people/Kim.png');
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+}
+
+#gandhi {
+	background-image: url('people/Gandhi1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#gandhi:hover {
+	background-image: url('people/gandhi.png');
+	position: relative;
+}
+
+#saddam {
+	background-image: url('people/Saddam1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#saddam:hover {
+	background-image: url('people/Saddam.png');
+	position: relative;
+}
+
+#walt {
+	background-image: url('people/Walt1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#walt:hover {
+	background-image: url('people/Walt.png');
+	position: relative;
+}
+
+#wash {
+	background-image: url('people/Wash1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#wash:hover {
+	background-image: url('people/Wash.png');
+	position: relative;
+}
+
+#cesar {
+	background-image: url('people/Cesar1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#cesar:hover {
+	background-image: url('people/Cesar.png');
+	position: relative;
+}
+
+#genghis {
+	background-image: url('people/Genghis1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#genghis:hover {
+	background-image: url('people/Genghis.png');
+	position: relative;
+}
+
+#che {
+	background-image: url('people/Che1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#che:hover {
+	background-image: url('people/Che.png');
+	position: relative;
+}
+
+#theresa {
+	background-image: url('people/Theresa1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#theresa:hover {
+	background-image: url('people/Theresa.png');
+	position: relative;
+}
+
+#heinrich {
+	background-image: url('people/Heinrich1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#heinrich:hover {
+	background-image: url('people/Heinrich.png');
+	position: relative;
+}
+
+#obama {
+	background-image: url('people/Obama1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#obama:hover {
+	background-image: url('people/Obama.png');
+	position: relative;
+}
+
+#pol {
+	background-image: url('people/Pol1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#pol:hover {
+	background-image: url('people/Pol.png');
+	position: relative;
+}
+
+#mlk {
+	background-image: url('people/MLK1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#mlk:hover {
+	background-image: url('people/MLK.png');
+	position: relative;
+}
+
+#lincoln {
+	background-image: url('people/Lincoln1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#lincoln:hover {
+	background-image: url('people/Lincoln.png');
+	position: relative;
+}
+
+#caligula {
+	background-image: url('people/Caligula1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#caligula:hover {
+	background-image: url('people/Caligula.png');
+	position: relative;
+}
+
